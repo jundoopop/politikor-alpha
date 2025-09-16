@@ -1,0 +1,51 @@
+.article-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  max-width: 300px;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+}
+
+.article-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.article-content {
+  padding: 1rem;
+}
+
+.article-title {
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.article-source {
+  font-size: 0.875rem;
+  color: #555;
+  margin: 0 0 1rem 0;
+}
+
+.article-summary {
+  font-size: 1rem;
+  color: #333;
+}
+
+.article-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.article-link:hover {
+  text-decoration: underline;
+}
